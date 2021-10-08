@@ -1,0 +1,10 @@
+```py
+letters=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+numbers=['1', '2', '3', '4', '5', '6', '7', '8']
+
+for i in range(len(letters)):
+    letter=str(letters[i])
+    for j in range(len(numbers)):
+        number=str(numbers[j])
+        print('{}{}'.format(letter, number), end="|")
+```
